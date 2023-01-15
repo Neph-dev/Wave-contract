@@ -3,7 +3,7 @@ const main = async () => {
   const waveContract = await getWaveContractFactory.deploy()
   await waveContract.deployed()
 
-  console.log("contract has been deployed to:", waveContract.address) //0x06034086AcFD579d47cB49Ba54d7003ff9440002
+  console.log("contract has been deployed to:", waveContract.address) //0x5396779F1b97690FBbbC0677334132dF059e7778
 }
 
 const runMain = async () => {
